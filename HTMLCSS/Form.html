@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <form action="">
+        <div class="form">
+            <h1>Student Form</h1>
+            <div class="name"> Name<span style="color: red;">*</span>: <input type="text" name="name" id="name"
+                    placeholder="Enter your Name"> </div><br>
+            <div class="clg"> College: <input type="text" name="clg" id="clg" placeholder="Enter your College Name">
+            </div><br>
+            <div class="mobile">Mobile : <input type="number" name="mobile" id="mobile"></div><br>
+            <div class="emial"> Email<span style="color: red;">*</span>: <input type="email" name="email" id="email"
+                    placeholder="Enter Valid Email"> </div>
+            <br>
+            <div class="pass"> Password<span style="color: red;">*</span>: <input type="password" name="pass" id="pass"
+                    placeholder="Enter Valid password">
+            </div><br>
+            <div class="date"> DOB: <input type="date" name="date" id="date"> </div><br>
+            <div class="radio"><p class="p1">Select Gender</p> 
+                <input type="radio" name="Male" id="male"><label for="Male">Male</label><br>
+                <input type="radio" name="Male" id="female"><label for="Female">Female</label>
+            </div><br>
+            <div class="checkbox">
+                <p class="p1">SELECT STREAM</p>
+
+                <input type="checkbox" name="cse" id="cse"><label for="cse">Computer science</label><br>
+                <input type="checkbox" name="ece" id="ece"><label for="ece">Electronics and communication</label><br>
+                <input type="checkbox" name="eee" id="eee"><label for="eee">Electrical and Electronics</label><br>
+                <input type="checkbox" name="civil" id="civil"><label for="civil">Civil</label><br>
+                <input type="checkbox" name="mech" id="mech"><label for="mech">Mechanical</label><br>
+
+
+            </div><br>
+            <div class="sem">
+                <label for="sem">Current semester</label>
+                <input type="number" name="sem" id="sem" min="1" max="8">
+            </div><br>
+            <div class="select">
+                <label for="uni">Select university</label>
+                <select name="uni" id="uni">
+                    <option value="vtu">VTU</option>
+                    <option value="pes">PES</option>
+                    <option value="mysore">Mysore</option>
+                    <option value="banglore">Banglore</option>
+                </select>
+
+            </div><br>
+            <div class="file">
+                <label for="resume">Attach Resume : </label>
+                <input type="file" name="resume" id="resume">
+            </div><br>
+
+            <div class="skill">
+                <label for="skill">Skills : </label>
+                <input type="search" name="skill" id="skill">
+            </div><br>
+
+            <div class="url">
+                <label for="linkedin">LinkedIn : </label>
+                <input type="url" name="linkedin" id="linkedin">
+            </div>
+
+            <div class="submit">
+                <button>Submit</button>
+                <button>Reset</button>
+            </div>
+
+
+
+        </div>
+    </form>
+</body>
+
+</html>
